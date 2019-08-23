@@ -1,15 +1,12 @@
 function fizzbuzz(number){
-  if (number % 15 == 0){
-    return 'FizzBuzz'
-  } else if (number % 3 == 0){
-    return 'Fizz'
-  } else if(number % 5 == 0){
-    return 'Buzz'
-  } else {
-    return number;
-  }
-}
+  let string = ''
 
+  if (number % 3 == 0){string += 'Fizz'}
+  if (number % 5 == 0){string += 'Buzz'}
+  
+  return string.length > 0 ? string : number
+
+}
 
 
 module.exports = fizzbuzz;
