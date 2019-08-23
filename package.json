@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/ajosephides/node-intro/issues"
   },
-  "homepage": "https://github.com/ajosephides/node-intro#readme"
+  "homepage": "https://github.com/ajosephides/node-intro#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
 }
