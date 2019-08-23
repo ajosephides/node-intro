@@ -23,3 +23,11 @@ test('multiple of 5 returns "Buzz"', () => {
 test('multiple of 5 returns "Buzz"', () => {
   expect(fizzbuzz(10)).toBe('Buzz');
 });
+
+test('multiple of 15 returns "FizzBuzz"', () => {
+  expect(fizzbuzz(15)).toBe('FizzBuzz');
+});
+
+test('multiple of 15 returns "FizzBuzz"', () => {
+  expect(fizzbuzz(30)).toBe('FizzBuzz');
+});
